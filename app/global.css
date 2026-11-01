@@ -190,6 +190,11 @@ p { margin: 0 0 1em; }
 .faq__item summary::after { content: '+'; color: var(--accent); font-size: 1.3rem; line-height: 1; transition: transform 0.2s; }
 .faq__item[open] summary::after { transform: rotate(45deg); }
 .faq__item p { margin: 12px 0 0; color: var(--muted); }
+.glance { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 28px; margin: 1.5rem 0 0; }
+.glance h2 { margin-top: 0; font-size: 1.2rem; }
+.glance ul { margin: 0; padding-left: 1.2em; }
+.glance li { margin-bottom: 0.4em; }
+.glance li:last-child { margin-bottom: 0; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
