@@ -52,7 +52,7 @@ export default function ChatDemo() {
       <div className="phone__notch" />
       <div className="phone__screen">
         <div className="chat">
-          <div className="chat__header">Sarah</div>
+          <div className="chat__header">Megan</div>
           <div className="chat__thread">
             <div className="bubble bubble--in">Rough week. Got anything encouraging? 🙏</div>
             {sent && <div className="bubble bubble--out bubble--pop">{VERSE}</div>}
@@ -72,6 +72,10 @@ export default function ChatDemo() {
               {stage === 'typing' && <span className="caret" />}
             </div>
             <div className="drawer__button">Search</div>
+            <div className="drawer__meta">
+              <span className="drawer__translation">World English Bible</span>
+              <span className="drawer__random">Feeling Holy</span>
+            </div>
           </div>
           <div className="drawer__item">
             <div className="drawer__item-top">

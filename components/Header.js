@@ -9,10 +9,6 @@ export default function Header() {
           <img src={asset('/icon.png')} alt="" width="32" height="32" className="brand__icon" />
           <span>{SITE.name}</span>
         </Link>
-        <nav className="nav" aria-label="Main">
-          <Link href="/support/">Support</Link>
-          <Link href="/privacy/">Privacy</Link>
-        </nav>
       </div>
     </header>
   );
