@@ -9,7 +9,6 @@ export default function Footer() {
         <nav className="nav" aria-label="Footer">
           <Link href="/support/">Support</Link>
           <Link href="/privacy/">Privacy</Link>
-          <a href={`mailto:${SITE.supportEmail}`}>Contact</a>
         </nav>
       </div>
     </footer>

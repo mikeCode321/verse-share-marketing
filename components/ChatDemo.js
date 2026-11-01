@@ -1,11 +1,11 @@
 'use client';
 import { useEffect, useState } from 'react';
 
-const REF = 'John 3:16';
+const REF = 'Isaiah 41:10';
 const VERSE =
-  'For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life. — John 3:16 (WEB)';
+  'Don\u2019t you be afraid, for I am with you. Don\u2019t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness. \u2014 Isaiah 41:10 (WEB)';
 
-// A looping mock of the app: friend asks -> you search -> verse drops in -> you send.
+  // A looping mock of the app: friend asks -> you search -> verse drops in -> you send.
 export default function ChatDemo() {
   const [typed, setTyped] = useState('');
   const [stage, setStage] = useState('typing'); // typing | inserted | sent
@@ -72,11 +72,13 @@ export default function ChatDemo() {
               {stage === 'typing' && <span className="caret" />}
             </div>
             <div className="drawer__button">Search</div>
-            <div className="drawer__meta">
+          </div>
+
+          <div className="drawer__meta">
               <span className="drawer__translation">World English Bible</span>
               <span className="drawer__random">Feeling Holy</span>
-            </div>
           </div>
+
           <div className="drawer__item">
             <div className="drawer__item-top">
               <strong>Psalm 23:1</strong>
