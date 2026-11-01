@@ -6,7 +6,7 @@ export const metadata = { title: 'Support' };
 
 export default function SupportPage() {
   return (
-    <LegalPage title="Support" subtitle="Questions, bugs, or ideas? I read every message.">
+    <LegalPage title="Support">
       <div className="support-card">
         <p className="support-card__label">Email</p>
         <a className="support-card__email" href={`mailto:${SITE.supportEmail}?subject=VerseShare%20Support`}>
